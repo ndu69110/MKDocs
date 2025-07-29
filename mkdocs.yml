@@ -39,8 +39,8 @@ theme:
     - navigation.indexes
     - navigation.top
     - toc.follow
-    #- toc.integrate          # 👈 show to to the left instead to the right
-    - content.action.view    # 👈 adds "View source of this page"
+    #- toc.integrate                        # 👈 show to to the left instead to the right
+    - content.action.view                   # 👈 adds "View source of this page"
     #- navigation.footer    
     - toc.sections
     - search.suggest
@@ -55,27 +55,52 @@ theme:
     - content.tabs.link
 
 plugins:
-  - search
-  - tags:
-      tags_file: tags.md
   - blog:
-      blog_dir: blog
-      blog_toc: true
-      authors: true
-      post_date_format: 'dd. MMM yyyy'
-      post_url_date_format: yyyy
-      post_url_format: '{date}/{file}'
-      archive: true
-      archive_url_format: '{date}'
-      pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
-      draft_if_future_date: true
+      enabled: true                         # 👈 if false: hide the blog
+      blog_toc: true                        # 👈 if false: hide the blog TOC
+      post_date_format: full
+      post_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      post_url_format: "{categories}/{slug}"
+      post_url_max_categories: 2
+      post_readtime: true                   # 👈 if false: hide the read time
+      categories: true                      # 👈 if false: hide the categories
+      categories_name: Categories
+      authors_file: blog/authors.yml
+      authors: true                         # 👈 if false: hide the authors
+      draft: true
+  - search:
+      enabled: true                         # 👈 if false: hide the search bar
+      lang: fr
+      separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
+      pipeline:
+        - stemmer
+        - stopWordFilter
+        - trimmer     
+  - tags:
+      tags_slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+      tags_slugify_separator: _
+      tags_slugify_format: "tag:{slug}"
+      tags_sort_by: !!python/name:material.plugins.tags.tag_name_casefold
+      tags_sort_reverse: true
+      tags_name_property: tags
+      tags_name_variable: tags
+      #listings: false                      # 👈 if false: hide the tags
+      listings_sort_by: !!python/name:material.plugins.tags.item_title
+      listings_sort_reverse: false          # 👈 if false: show the tags in the correct order
+      tags_sort_by: !!python/name:material.plugins.tags.tag_name_casefold
+      tags_sort_reverse: true
+      #listings_directive: $tags            # 👈 hide tags if not commmented
 
 extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/nicolas-dupre-94b2a078/
       name: nicolas dupre on Linkedin
-  generator: false        # 👈 if true : show auto footer "made with ..."
+  generator: false                    # 👈 if true : show auto footer "made with ..."
 
 markdown_extensions:
   - markdown.extensions.meta:
@@ -85,7 +110,7 @@ markdown_extensions:
   - markdown.extensions.toc:
       permalink: true
   - markdown.extensions.md_in_html:
-  - pymdownx.betterem:    # 👈 add
+  - pymdownx.betterem:                # 👈 add
   - pymdownx.blocks.caption:
   - pymdownx.caret:
   - pymdownx.mark:
