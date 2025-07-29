@@ -1,3 +1,12 @@
+---
+date: 2025-07-28
+categories:
+    - Documentation
+tags:
+    - Git
+    - Github
+---
+
 # Comment ajouter un domaine personnalisé aux pages GitHub (édition Hostinger)
 
 [#webdev](https://dev.to/t/webdev) [#tutoriel](https://dev.to/t/tutorial) [#nuage](https://dev.to/t/cloud) [#débutants](https://dev.to/t/beginners)

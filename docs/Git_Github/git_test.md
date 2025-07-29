@@ -1,3 +1,13 @@
+---
+date: 2025-07-28
+categories:
+    - Documentation
+tags:
+    - Git
+    - Github
+    - CI/CD
+---
+
 ![](https://www.ndu69.com/Screenshots/screenshot_2025-07-29_12-52-39.jpg)
 
 # Guide du débutant sur Git : tout ce que vous devez savoir

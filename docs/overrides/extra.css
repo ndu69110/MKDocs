@@ -31,4 +31,8 @@
 #.md-main {
 #  padding-bottom: 3rem; /* adjust to match footer height */
 #}
- 
+
+.wy-nav-side {
+    border-right: 3px solid #1565c0 !important; /* Adjust side, width, and color as needed */
+    box-sizing: border-box;
+}

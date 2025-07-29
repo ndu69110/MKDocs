@@ -1,3 +1,12 @@
+---
+date: 2025-07-28
+categories:
+    - Documentation
+tags:
+    - Git
+    - Github
+---
+
 # Quel est l'objectif principal de Git et comment cela aide-t-il à la gestion de code ?
 
 ## Objectif principal de Git

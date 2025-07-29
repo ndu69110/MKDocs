@@ -1,5 +1,5 @@
 # Tags
 
-My tags
+Tags du site
 
 <!-- material/tags -->
