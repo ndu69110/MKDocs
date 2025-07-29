@@ -5,12 +5,18 @@ date:
 categories:
   - Search
   - Performance
+  - Holidays
 tags:
-    - MKDocs
+  - MKDocs
+  - new year
+  - hogmanay
+  - festive season
 draft: false
 links:
   - index.md
 #readtime: 15
+authors:
+  - team
 ---
 
 # hello world2

@@ -56,6 +56,7 @@ theme:
 
 plugins:
   - blog:
+      archive_date_format: MMMM yyyy
       enabled: true                         # 👈 if false: hide the blog
       blog_toc: true                        # 👈 if false: hide the blog TOC
       post_date_format: full
@@ -67,9 +68,10 @@ plugins:
       post_readtime: true                   # 👈 if false: hide the read time
       categories: true                      # 👈 if false: hide the categories
       categories_name: Categories
-      authors_file: blog/authors.yml
+      authors_file: .authors.yml
       authors: true                         # 👈 if false: hide the authors
       draft: true
+      pagination_per_page: 5
   - search:
       enabled: true                         # 👈 if false: hide the search bar
       lang: fr
@@ -192,6 +194,7 @@ nav:
   - Tags: tags.md
   - Blog:
       - blog/index.md
+      - blog/author/team.md
   - Git et Github:
       - Concept: Git_Github/git_concept.md
       - Objectif de Git: Git_Github/git_objectif.md
