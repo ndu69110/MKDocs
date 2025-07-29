@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2023-01-31 
+  created: 2022-01-31
   updated: 2023-02-01
 categories:
   - Search
@@ -13,6 +13,6 @@ links:
 #readtime: 15
 ---
 
-# hello world
+# hello world2
 
 today i left in the morning
