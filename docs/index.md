@@ -6,6 +6,20 @@
 
 ---
 
+
+
+Ce site a été créé pour regrouper quelques articles, quelques notes en relation avec le domaine de l'IT. Y sont déposés dans la rubrique blog quelques sujets techniques, quelques travaux réalisés dans mon "homelab" et quelques sujets d'actualité.
+
+Bonne lecture, je lirai vos messages avec plaisir dans la rubrique adéquate !
+
+
+
+## Je me présente
+
+---
+
+
+
 Depuis une vingtaine d'années, j'interviens auprès de nombreux grands comptes en tant que consultant IT. Les différentes missions dans diverses ESN m'ont permis d'évoluer techniquement, et nous savons tous que dans l'informatique, les choses évoluent très vite ("*transformation digitale*" ou "*move to cloud*" par exemple sont des termes très largement utilisés).
 
 Actuellement consultant Microsoft chez Exakis-Nelite à Lyon, ma spécialité se porte sur les technologies d’infrastructure IT et Azure, et je prends part à différents projets passionnants. J’apporte mon expertise aux clients pour optimiser leurs infrastructures et exploiter pleinement les services cloud d’Azure. Grâce à mes expériences et expertise, je propose des solutions innovantes et performantes.
