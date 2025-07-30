@@ -1,0 +1,15 @@
+{
+    "frontMatter.framework.id": "other",
+    "frontMatter.content.publicFolder": "",
+    "frontMatter.content.pageFolders": [
+        {
+            "title": "mkdocs-docs",
+            "path": "[[workspace]]/docs"
+        },
+        {
+            "title": "mkdocs-blog",
+            "path": "[[workspace]]/docs/blog"
+        }
+    ],
+    "frontMatter.git.enabled": true
+}
