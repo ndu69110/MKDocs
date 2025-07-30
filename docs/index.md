@@ -18,8 +18,6 @@ Bonne lecture, je lirai vos messages avec plaisir dans la rubrique adéquate !
 
 ---
 
-
-
 Depuis une vingtaine d'années, j'interviens auprès de nombreux grands comptes en tant que consultant IT. Les différentes missions dans diverses ESN m'ont permis d'évoluer techniquement, et nous savons tous que dans l'informatique, les choses évoluent très vite ("*transformation digitale*" ou "*move to cloud*" par exemple sont des termes très largement utilisés).
 
 Actuellement consultant Microsoft chez Exakis-Nelite à Lyon, ma spécialité se porte sur les technologies d’infrastructure IT et Azure, et je prends part à différents projets passionnants. J’apporte mon expertise aux clients pour optimiser leurs infrastructures et exploiter pleinement les services cloud d’Azure. Grâce à mes expériences et expertise, je propose des solutions innovantes et performantes.
