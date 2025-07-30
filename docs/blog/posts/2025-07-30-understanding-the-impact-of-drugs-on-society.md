@@ -7,6 +7,7 @@ draft: true
 tags:
     - drug
     - pills
+    - Draft
 categories:
     - medecine
 ---
@@ -20,4 +21,6 @@ categories:
 
 [ ]
 [X]
+ 
+
  

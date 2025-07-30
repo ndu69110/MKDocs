@@ -56,6 +56,7 @@ theme:
 
 plugins:
   - blog:
+      archive: false      
       archive_date_format: MMMM yyyy
       enabled: true                         # 👈 if false: hide the blog
       blog_toc: true                        # 👈 if false: hide the blog TOC
@@ -71,6 +72,7 @@ plugins:
       authors_file: .authors.yml
       authors: true                         # 👈 if false: hide the authors
       draft: true
+      draft_if_future_date: true
       pagination_per_page: 5
   - search:
       enabled: true                         # 👈 if false: hide the search bar
@@ -97,8 +99,17 @@ plugins:
       tags_sort_reverse: true
       #listings_directive: $tags            # 👈 hide tags if not commmented
 
+extra_css:
+- assets/css/extra.css
+
+extra_javascript:
+- assets/js/timeago.min.js
+- assets/js/timeago_mkdocs_material.js
+
 extra:
   social:
+    - icon: 'simple/github'
+      link: 'https://github.com/Andre601'
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/nicolas-dupre-94b2a078/
       name: nicolas dupre on Linkedin
@@ -126,7 +137,7 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.inlinehilite:
   - pymdownx.snippets:
-  #    base_path: 'theme/snippets'
+      base_path: 'theme/snippets'
   - pymdownx.highlight:
       anchor_linenums: true
       use_pygments: true
@@ -180,7 +191,7 @@ markdown_extensions:
       permalink: "#"
       baselevel: 2
       separator: "_"
-#      title: On this page
+      title: SOMMAIRE                 # 👈 TOC name
       permalink_title: Anchor link to this section for reference
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
@@ -200,4 +211,4 @@ nav:
       - Objectif de Git: Git_Github/git_objectif.md
       - Trier: Git_Github/git_test.md
       - Host: Git_Github/git_host-github-pages.md
-  - Drug : blog/2025-07-30-understanding-the-impact-of-drugs-on-society.md
+

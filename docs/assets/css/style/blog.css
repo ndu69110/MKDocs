@@ -1,0 +1,6 @@
+.md-meta__item > .twemoji svg {
+    fill: currentColor;
+    max-height: 100%;
+    width: 1.125em;
+    vertical-align: text-top;
+}
