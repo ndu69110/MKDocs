@@ -4,19 +4,13 @@
 
 ## Bonjour !
 
----
-
-
-
 Ce site a été créé pour regrouper quelques articles, quelques notes en relation avec le domaine de l'IT. Y sont déposés dans la rubrique blog quelques sujets techniques, quelques travaux réalisés dans mon "homelab" et quelques sujets d'actualité.
 
 Bonne lecture, je lirai vos messages avec plaisir dans la rubrique adéquate !
 
-
+---
 
 ## Je me présente
-
----
 
 Depuis une vingtaine d'années, j'interviens auprès de nombreux grands comptes en tant que consultant IT. Les différentes missions dans diverses ESN m'ont permis d'évoluer techniquement, et nous savons tous que dans l'informatique, les choses évoluent très vite ("*transformation digitale*" ou "*move to cloud*" par exemple sont des termes très largement utilisés).
 
@@ -26,30 +20,22 @@ Par ailleurs, je m’autoforme sur mes temps de disponibilité sur les technos C
 
 Je suis joignable sur [Linkedin](https://www.linkedin.com/in/nicolas-dupre-94b2a078/).
 
-
+---
 
 ## Mon CV
----
-
 Mon CV actualisé (juillet 2025) est disponible ici au format PDF : 
 
-[Mon CV](https://www.ndu69.com/CV/CV_NicolasDupr%C3%A9.pdf)
+[:material-check: __CV__ ](https://www.ndu69.com/CV/CV_NicolasDupr%C3%A9.pdf)
 
-
+---
 
 ## Compétences
----
-
 Consultant spécialisé dans la mise en œuvre, la gestion et l’optimisation des infrastructures IT et des solutions cloud sur Microsoft Azure. Fort d’une expérience en architecture de systèmes, migration vers le cloud et gestion des infrastructures informatiques complexes, j’accompagne les entreprises dans la sécurité et l’évolutivité de leurs environnements IT.
 
-
-
-## Mes certifications et transcript Microsoft
 ---
 
+## Mes certifications et transcript Microsoft
 Mes certifications Microsoft (à jour) figurent ci-dessous :
-
-
 
 |          Certification AZ           | Certifications SC / MS | Certifications fondamentales |
 | :---------------------------------: | :--------------------: | :--------------------------: |
@@ -62,8 +48,6 @@ Mes certifications Microsoft (à jour) figurent ci-dessous :
 |               AZ-500                |                        |                              |
 |               AZ-104                |                        |                              |
 
+[:material-check: __Transcript - Microsoft Learn__](https://learn.microsoft.com/en-us/users/nicolasdupre-8094/transcript/dr54wh1x92zq563)
 
-
-[Transcript (Microsoft Learn)](https://learn.microsoft.com/en-us/users/nicolasdupre-8094/transcript/dr54wh1x92zq563)
-
-[Transcript (PDF)](https://www.ndu69.com/Transcript/Transcription_NicolasDupr%C3%A9_MicrosoftLearn.pdf)
+[ :material-check: __Transcript - PDF__](http://www.ndu69.com/Transcript/Transcription_NicolasDupr%C3%A9_MicrosoftLearn.pdf)
