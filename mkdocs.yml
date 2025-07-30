@@ -23,7 +23,7 @@ theme:
         icon: material/weather-sunny        # 👈 default: material/brightness-4
         name: Switch to light mode  
   features:
-    - header.autohide
+    #- header.autohide                       # 👈 if commented: the header remains visible 
     - announce.dismiss
     - navigation.instant
     - navigation.instant.prefetch
@@ -210,9 +210,9 @@ nav:
       - blog/index.md
       - blog/author/team.md
   - Git et Github:
-      - Concept: Git_Github/git_concept.md
-      - Objectif de Git: Git_Github/git_objectif.md
-      - Trier: Git_Github/git_test.md
-      - Host: Git_Github/git_host-github-pages.md
+      - Concept: git_github/git_concept.md
+      - Objectif de Git: git_github/git_objectif.md
+      - Trier: git_github/git_test.md
+      - Host: git_github/git_host-github-pages.md
   - Tags: tags.md
   - Contact: contact.md
