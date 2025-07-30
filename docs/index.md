@@ -42,7 +42,7 @@ Mes certifications Microsoft (à jour) figurent ci-dessous :
 |               AZ-801                |         SC-200         |            SC-900            |
 |               AZ-800                |         SC-400         |            MS-900            |
 | AZ-305 (+ AZ-303/AZ-304, obsolètes) |         SC-300         |            PL-900            |
-|               AZ-720                |                        |            AI-900            |
+|               AZ-720                |         AZ-500         |            AI-900            |
 |               AZ-700                |                        |            DP-900            |
 |               AZ-140                |                        |            AZ-900            |
 |               AZ-500                |                        |                              |
