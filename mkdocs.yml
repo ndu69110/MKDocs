@@ -3,8 +3,7 @@ site_url: http://127.0.0.1:8000/
 site_author: 'ndu69110'
 copyright: Copyright &copy; 2025 | GHOST IN THE CLOUD <br> Hosted with ❤️ in Github Pages 
 docs_dir: docs/
-extra_css:
-  - overrides/extra.css
+
 theme:
   font:
     text: Roboto
@@ -101,6 +100,7 @@ plugins:
 
 extra_css:
 - assets/css/extra.css
+- overrides/extra.css
 
 extra_javascript:
 - assets/js/timeago.min.js
