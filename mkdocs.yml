@@ -103,6 +103,7 @@ plugins:
 extra_css:
 - assets/css/extra.css
 - overrides/extra.css
+- assets/stylesheets/extra.css
 
 extra_javascript:
 - assets/js/timeago.min.js

@@ -1,5 +1,3 @@
-# Tags
-
-Tags du site
+# Tags du site
 
 <!-- material/tags -->
