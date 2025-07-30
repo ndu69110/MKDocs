@@ -11,7 +11,7 @@
 > **Note**  
 > Repository de dépôt du site : https://github.com/ndu69110/MKDocs
 
-Il s'agit du référentiel qui héberge les pages que vous pouvez trouver sur https://ndu69110.github.io/mkdocs.
+Il s'agit du référentiel qui héberge les pages que vous pouvez trouver sur https://ndu69110.github.io/MKDocs.
 
 Nous utilisons [MkDocs] pour convertir les fichiers Markdown en pages HTML statiques.
 Vous trouverez toutes les pages dans le répertoire [docs]. Les ressources telles que les images se trouvent dans [docs/assets][assets].
