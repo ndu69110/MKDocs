@@ -1,4 +1,7 @@
-# The Material Team
+# Microsoft, IT et actualités
 
-A small group of people dedicated to making writing documentation easy, if
-not outright fun! Here are some of the things we have blogged about:
+Ce blog propose une veille structurée autour de trois axes principaux :
+
+- **Microsoft** : analyse des évolutions stratégiques, des innovations technologiques et des solutions proposées par l’écosystème Microsoft.
+- **IT** : décryptage des tendances du secteur des technologies de l’information, incluant le cloud, la cybersécurité, l’IA et la transformation digitale.
+- **Actualités** : sélection d’informations clés et analyses sur l’actualité technologique, pour rester informé des mouvements majeurs du marché.
