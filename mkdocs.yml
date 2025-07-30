@@ -55,6 +55,7 @@ theme:
     - content.tabs.link
 
 plugins:
+  - open-in-new-tab
   - blog:
       archive: false      
       archive_date_format: MMMM yyyy
@@ -110,7 +111,7 @@ extra_javascript:
 extra:
   social:
     - icon: 'simple/github'
-      link: 'https://github.com/Andre601'
+      link: 'https://github.com/ndu69110'
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/nicolas-dupre-94b2a078/
       name: nicolas dupre on Linkedin
