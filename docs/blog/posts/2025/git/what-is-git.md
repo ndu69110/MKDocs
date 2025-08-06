@@ -20,6 +20,9 @@ authors:
 ---
 
 # Introduction à Git et Github
+FFCLSCLCO684
+
+FFCLSCLCO711
 
 ## Qu'est-ce que Git ?
 

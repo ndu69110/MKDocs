@@ -8,20 +8,21 @@ theme:
   font:
     text: Roboto
   name: material
+  color_mode: dark
   custom_dir: custom_theme
   logo: logo/logo.webp
   favicon: logo/icon.webp
   palette: 
-    # Palette toggle for light mode
-    - scheme: default
-      toggle:
-        icon: material/weather-night        # 👈 default: material/brightness-7 
-        name: Switch to dark mode
     # Palette toggle for dark mode
     - scheme: slate
-      toggle:
-        icon: material/weather-sunny        # 👈 default: material/brightness-4
-        name: Switch to light mode  
+    ##  toggle:
+    ##    icon: material/weather-sunny       # 👈 default: material/brightness-7 
+    ##    name: Switch to light mode
+    # Palette toggle for light mode
+    ##- scheme: default
+    ##  toggle:
+    ##    icon: material/weather-night        # 👈 default: material/brightness-4
+    ##    name: Switch to dark mode  
   features:
     #- header.autohide                       # 👈 if commented: the header remains visible 
     - announce.dismiss
@@ -216,3 +217,4 @@ nav:
       - Host: git_github/git_host-github-pages.md
   - Tags: tags.md
   - Contact: contact.md
+  - test: test_embedded.md

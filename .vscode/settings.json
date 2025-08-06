@@ -1,24 +1,15 @@
 {
-    "frontMatter.framework.id": "other",
-    "frontMatter.content.publicFolder": "",
-    "frontMatter.content.pageFolders": [
-        {
-            "title": "mkdocs-docs",
-            "path": "[[workspace]]/docs"
-        },
-        {
-            "title": "mkdocs-blog",
-            "path": "[[workspace]]/docs/blog"
-        }
-    ],
-    "frontMatter.git.enabled": true,
     "[markdown]": {
         "editor.fontSize": 14,
         "editor.lineHeight": 26,
         "editor.wordWrap": "wordWrapColumn",
         "editor.wordWrapColumn": 64,
         "editor.lineNumbers": "off",
-        "editor.quickSuggestions": false,
+        "editor.quickSuggestions": {
+            "comments": "off",
+            "strings": "off",
+            "other": "off"
+        },
         "editor.minimap.enabled": false
     }
 }

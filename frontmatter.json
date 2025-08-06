@@ -1,3 +1,16 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json"
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "mkdocs-docs",
+      "path": "[[workspace]]/docs"
+    },
+    {
+      "title": "mkdocs-blog",
+      "path": "[[workspace]]/docs/blog"
+    }
+  ],
+  "frontMatter.content.publicFolder": "",
+  "frontMatter.framework.id": "other",
+  "frontMatter.git.enabled": true
 }
