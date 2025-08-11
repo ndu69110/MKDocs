@@ -4,9 +4,6 @@ site_author: 'ndu69110'
 copyright: Copyright &copy; 2025 | Built using MkDocs, Material for MkDocs and PyMdown Extensions <br> Hosted with ❤️ in Github Pages 
 docs_dir: docs/
 
-repo_url: https://github.com/ndu69110
-repo_name: github.com/ndu69110
-
 theme:
   font:
     text: Roboto
@@ -103,6 +100,9 @@ plugins:
       tags_sort_by: !!python/name:material.plugins.tags.tag_name_casefold
       tags_sort_reverse: true
       #listings_directive: $tags            # 👈 hide tags if not commmented
+
+repo_url: https://github.com/ndu69110
+repo_name: github.com/ndu69110
 
 extra_css:
 - assets/css/extra.css
