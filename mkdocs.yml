@@ -16,7 +16,7 @@ theme:
     # Palette toggle for dark mode
     - scheme: slate
     ##  toggle:
-    ##    icon: material/weather-sunny       # 👈 default: material/brightness-7 
+    ##    icon: material/weather-sunny        # 👈 default: material/brightness-7 
     ##    name: Switch to light mode
     # Palette toggle for light mode
     ##- scheme: default
@@ -24,7 +24,7 @@ theme:
     ##    icon: material/weather-night        # 👈 default: material/brightness-4
     ##    name: Switch to dark mode  
   features:
-    #- header.autohide                       # 👈 if commented: the header remains visible 
+    #- header.autohide                        # 👈 if commented: the header remains visible 
     - announce.dismiss
     - navigation.instant
     - navigation.instant.prefetch
@@ -40,8 +40,8 @@ theme:
     - navigation.indexes
     - navigation.top
     - toc.follow
-    - toc.integrate                         # 👈 show to to the left instead to the right
-    - content.action.view                   # 👈 adds "View source of this page"
+    - toc.integrate                           # 👈 show to to the left instead to the right
+    - content.action.view                     # 👈 adds "View source of this page"
     #- navigation.footer    
     - toc.sections
     - search.suggest
@@ -60,24 +60,24 @@ plugins:
   - blog:
       archive: false      
       archive_date_format: MMMM yyyy
-      enabled: true                         # 👈 if false: hide the blog
-      blog_toc: true                        # 👈 if false: hide the blog TOC
+      enabled: true                           # 👈 if false: hide the blog
+      blog_toc: true                          # 👈 if false: hide the blog TOC
       post_date_format: full
       post_slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
           case: lower
       post_url_format: "{categories}/{slug}"
       post_url_max_categories: 2
-      post_readtime: true                   # 👈 if false: hide the read time
-      categories: true                      # 👈 if false: hide the categories
+      post_readtime: true                     # 👈 if false: hide the read time
+      categories: true                        # 👈 if false: hide the categories
       categories_name: Categories
       authors_file: .authors.yml
-      authors: true                         # 👈 if false: hide the authors
+      authors: true                           # 👈 if false: hide the authors
       draft: true
       draft_if_future_date: true
       pagination_per_page: 5
   - search:
-      enabled: true                         # 👈 if false: hide the search bar
+      enabled: true                           # 👈 if false: hide the search bar
       lang: fr
       separator: '[\s\-,:!=\[\]()"/]+|(?!\b)(?=[A-Z][a-z])|\.(?!\d)|&[lg]t;'
       pipeline:
@@ -94,17 +94,17 @@ plugins:
       tags_sort_reverse: true
       tags_name_property: tags
       tags_name_variable: tags
-      #listings: false                      # 👈 if false: hide the tags
+      #listings: false                        # 👈 if false: hide the tags
       listings_sort_by: !!python/name:material.plugins.tags.item_title
-      listings_sort_reverse: false          # 👈 if false: show the tags in the correct order
+      listings_sort_reverse: false            # 👈 if false: show the tags in the correct order
       tags_sort_by: !!python/name:material.plugins.tags.tag_name_casefold
       tags_sort_reverse: true
-      #listings_directive: $tags            # 👈 hide tags if not commmented
+      #listings_directive: $tags              # 👈 hide tags if not commmented
 
 repo_url: https://github.com/ndu69110
 repo_name: github.com/ndu69110
 repo_icon: fontawesome/brands/github
-edit_uri: /ndu69110/MKDocs/blob/main/docs
+edit_uri: /ndu69110/MKDocs/blob/main/docs     # 👈 If you set it to "" (empty string), the edit links are disabled.
 
 extra_css:
 - assets/css/extra.css
@@ -122,7 +122,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/nicolas-dupre-94b2a078/
       name: nicolas dupre on Linkedin
-  generator: false                    # 👈 if true : show auto footer "made with ..."
+  generator: false                            # 👈 if true : show auto footer "made with ..."
 
 markdown_extensions:
   - markdown.extensions.meta:
@@ -132,7 +132,7 @@ markdown_extensions:
   - markdown.extensions.toc:
       permalink: true
   - markdown.extensions.md_in_html:
-  - pymdownx.betterem:                # 👈 add
+  - pymdownx.betterem:                        # 👈 add
   - pymdownx.blocks.caption:
   - pymdownx.caret:
   - pymdownx.mark:
@@ -200,7 +200,7 @@ markdown_extensions:
       permalink: "#"
       baselevel: 2
       separator: "_"
-      title: SOMMAIRE                 # 👈 TOC name
+      title: SOMMAIRE                         # 👈 TOC name
       permalink_title: Anchor link to this section for reference
       slugify: !!python/object/apply:pymdownx.slugs.slugify
         kwds:
