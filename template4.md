@@ -1,108 +1,26 @@
+---
+date:
+  created: 2022-01-31
+  updated: 2023-02-01
+categories:
+  - Search
+  - Performance
+  - Holidays
+tags:
+  - MKDocs
+  - new year
+  - hogmanay
+  - festive season
+draft: false
+links:
+  - index.md
+#readtime: 15
+authors:
+  - team
+
+---
+
 # Servas
-
----
-
-```javascript
-get-aduser -server $domain -identity $user -property *
-```
-
----
-
-```javascript
-// An highlighted block
-var foo = 'bar';
-```
-
----
-
-Item     | Value
--------- | -----
-Computer | $1600
-Phone    | $12
-Pipe     | $1
-
-
-| Column 1 | Column 2      |
-|:--------:| -------------:|
-| centered | right-aligned |
-
----
-
-Markdown
-:  Text-to-HTML conversion tool
-
-Authors
-:  John
-:  Luke
-
----
-
-Footnotes
----------------------------
-
-Some text with a footnote.[^1]
-
-[^1]: The footnote.
-
----
-
-The Gamma function satisfying $\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$ is via the Euler integral
-
----
-
-Abbreviations
----------------------------
-
-Markdown converts text to HTML.
-
-*[HTML]: HyperText Markup Language
-
-Markdown converts text to RATP
-*[RATP]: Régie Autonome des Transports Parisiens
----
-
-Lists
----------------------------
-
-- Item
-  * Item
-    + Item
-
-1. Item 1
-2. Item 2
-3. Item 3
-
-- [ ] Incomplete item
-- [x] Complete item
-
----
-
-==Marked text.==
-
----
-
-Styling
----------------------------
-
-*Emphasize* _emphasize_
-
-**Strong** __strong__
-
-==Marked text.==
-
-~~Mistaken text.~~
-
-> Quoted text.
-
-H~12~O is a liquid.
-
-2^10^ is 1024.
-
----
-
-![hello](https://www.ndu69.com/Screenshots/screenshot_2025-08-11_23-05-45.jpg)
-
 
 [](https://github.com/beromir/Servas/tree/main#servas)
 
@@ -146,6 +64,15 @@ You can find the example files here:
 
 -   [compose.yaml](https://github.com/beromir/Servas/blob/main/docker/mariadb-example/compose.prod.yaml)
 -   [.env](https://github.com/beromir/Servas/blob/main/docker/mariadb-example/.env.prod.example)
+
+```javascript
+//comment
+var i=toto
+```
+> testr
+> > ddd
+>
+>  create the `.ev` file
 
 **Initial steps:**
 
