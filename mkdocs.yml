@@ -4,6 +4,9 @@ site_author: 'ndu69110'
 copyright: Copyright &copy; 2025 | Built using MkDocs, Material for MkDocs and PyMdown Extensions <br> Hosted with ❤️ in Github Pages 
 docs_dir: docs/
 
+repo_url: https://github.com/ndu69110
+repo_name: github.com/ndu69110
+
 theme:
   font:
     text: Roboto
@@ -206,7 +209,7 @@ markdown_extensions:
   
 nav:
   - Accueil: index.md
-  - Gestion du site: gestion-site.md
+  - Gestion du site: _GESTION-SITE/gestion-site.md
   - Blog:
       - blog/index.md
       - blog/author/team.md
@@ -216,14 +219,14 @@ nav:
       - wiki/guide-utilisateur.md
       - wiki/guide-developpement.md
   - Git et Github:
-      - Concept: git_github/git_concept.md
-      - Objectif de Git: git_github/git_objectif.md
-      - Trier: git_github/git_test.md
-      - Host: git_github/git_host-github-pages.md
+      - Concept: GIT-GITHUB/git_concept.md
+      - Objectif de Git: GIT-GITHUB/git_objectif.md
+      - Trier: GIT-GITHUB/git_test.md
+      - Host: GIT-GITHUB/git_host-github-pages.md
   - test: test.md
   - Guide utilisateur:
       - Rédiger votre doc: test.md
       - Personnaliser le style: test.md
   - Liens utiles: ess.md
-  - Tags: tags.md
-  - Contact: contact.md
+  - Tags: _TAGS/tags.md
+  - Contact: _CONTACT/contact.md
