@@ -100,6 +100,11 @@ H~12~O is a liquid.
 2^10^ is 1024.
 
 ---
+![enter image description here](https://www.ndu69.com/Screenshots/Screenshot%20From%202025-08-11%2023-24-39.png)
+
+
+https://www.ndu69.com/Screenshots/Screenshot From 2025-08-11 23-24-39.png
+
 
 ![hello](https://www.ndu69.com/Screenshots/screenshot_2025-08-11_23-05-45.jpg)
 
