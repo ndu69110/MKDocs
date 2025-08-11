@@ -25,6 +25,7 @@ theme:
     ##    icon: material/weather-night        # 👈 default: material/brightness-4
     ##    name: Switch to dark mode  
   features:
+    - header.hide_repo_revision  # empêche l’affichage du numéro ou texte sous le nom
     #- header.autohide                        # 👈 if commented: the header remains visible 
     - announce.dismiss
     - navigation.instant
