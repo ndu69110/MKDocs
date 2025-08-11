@@ -103,6 +103,8 @@ plugins:
 
 repo_url: https://github.com/ndu69110
 repo_name: github.com/ndu69110
+repo_icon: fontawesome/brands/github
+edit_uri: /ndu69110/MKDocs/blob/main/docs
 
 extra_css:
 - assets/css/extra.css
