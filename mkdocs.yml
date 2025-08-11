@@ -119,7 +119,7 @@ extra:
       name: nicolas dupre on Linkedin
   generator: false                            # 👈 if true : show auto footer "made with ..."
 
-repo_url: https://github.com/ndu69110
+repo_url: https://wwww/ndu69110
 repo_name: ndu69110
 #repo_icon: fontawesome/brands/github
 edit_uri: /ndu69110/MKDocs/blob/main/docs     # 👈 If you set it to "" (empty string), the edit links are disabled.
