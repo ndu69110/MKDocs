@@ -210,11 +210,20 @@ nav:
   - Blog:
       - blog/index.md
       - blog/author/team.md
+  - Wiki:
+      - wiki/index.md
+      - wiki/installation.md
+      - wiki/guide-utilisateur.md
+      - wiki/guide-developpement.md
   - Git et Github:
       - Concept: git_github/git_concept.md
       - Objectif de Git: git_github/git_objectif.md
       - Trier: git_github/git_test.md
       - Host: git_github/git_host-github-pages.md
+  - test: test.md
+  - Guide utilisateur:
+      - Rédiger votre doc: test.md
+      - Personnaliser le style: test.md
+  - Liens utiles: links.md
   - Tags: tags.md
   - Contact: contact.md
-  - test: test_embedded.md
