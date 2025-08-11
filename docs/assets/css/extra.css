@@ -2,3 +2,6 @@
 @import "style/blog.css";
 @import "style/padding.css";
 
+.md-header__source .md-source__fact {
+  display: none !important;
+}
