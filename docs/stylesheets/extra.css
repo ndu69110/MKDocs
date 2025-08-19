@@ -1,0 +1,14 @@
+/* --- Menu déroulant au survol dans la barre de navigation --- */
+
+/* Par défaut, Material masque le dropdown jusqu'au clic.
+   On force l'affichage au hover du parent. */
+.md-tabs__item:hover .md-tabs__dropdown {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Animation fluide */
+.md-tabs__dropdown {
+    transition: opacity 0.2s ease-in-out;
+}

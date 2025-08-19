@@ -107,6 +107,7 @@ extra_css:
 - assets/css/extra.css
 - overrides/extra.css
 - assets/stylesheets/extra.css
+- stylesheets/extra.css
 
 extra_javascript:
 - assets/js/timeago.min.js
@@ -230,7 +231,15 @@ nav:
   - test: test.md
   - Guide utilisateur:
       - Rédiger votre doc: test.md
-      - Personnaliser le style: test.md
+      - Personnaliser le style: test2.md
   - Liens utiles: ess.md
   - Tags: _TAGS/tags.md
   - Contact: _CONTACT/contact.md
+  - Guide:
+      - Présentation: menu/guide.md
+      - Tutoriels:
+          - Tutoriel 1: menu/tuto1.md
+          - Tutoriel 2: menu/tuto2.md
+  - Apps: Apps/apps.md
+
+

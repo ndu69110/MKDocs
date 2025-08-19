@@ -4,3 +4,14 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* Ouvrir le menu dropdown au survol */
+.md-tabs__item:hover .md-tabs__link + .md-tabs__dropdown {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+.md-tabs__dropdown {
+    transition: opacity 0.2s ease-in-out;
+}
