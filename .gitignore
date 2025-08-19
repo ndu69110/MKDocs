@@ -1,3 +1,3 @@
 venv/
-.frontmatter/
+.frontmatter/database/taxonomyDb.json
 /frontmatter.json
