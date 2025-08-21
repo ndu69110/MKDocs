@@ -128,79 +128,84 @@ repo_icon: fontawesome/brands/github
 edit_uri: /ndu69110/MKDocs/blob/main/docs     # 👈 If you set it to "" (empty string), the edit links are disabled.
 
 markdown_extensions:
-  - markdown.extensions.meta:
-  - markdown.extensions.attr_list:
+  - markdown.extensions.meta: # 👈 got it 
+  - markdown.extensions.attr_list: # 👈 got it 
   - markdown.extensions.footnotes:
       PLACE_MARKER: "<!-- Footnotes -->"
-  - markdown.extensions.toc:
-      permalink: true
-  - markdown.extensions.md_in_html:
-  - pymdownx.betterem:                        # 👈 add
-  - pymdownx.blocks.caption:
-  - pymdownx.caret:
-  - pymdownx.mark:
-  - pymdownx.keys:
-  - pymdownx.tilde:
-  - pymdownx.critic:
-      mode: view
-  - pymdownx.details:
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji 
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  - pymdownx.inlinehilite:
-  - pymdownx.snippets:
+  - markdown.extensions.toc: # 👈 got it 
+      permalink: true # 👈 got it 
+  - markdown.extensions.md_in_html # 👈 got it 
+  - pymdownx.betterem: # 👈 got it            # 👈 add
+      smart_enable: all # 👈 got it 
+  - pymdownx.blocks.caption # 👈 got it
+  - pymdownx.caret # 👈 got it 
+  - pymdownx.mark # 👈 got it 
+  - pymdownx.keys # 👈 got it 
+  - pymdownx.tilde # 👈 got it 
+  - pymdownx.critic: # 👈 got it 
+      mode: view # 👈 got it 
+  - pymdownx.details # 👈 got it 
+  - pymdownx.emoji: # 👈 got it 
+      emoji_index: !!python/name:material.extensions.emoji.twemoji # 👈 got it 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg # 👈 got it 
+  - pymdownx.inlinehilite # 👈 got it 
+  - pymdownx.snippets: # 👈 got it 
       base_path: 'theme/snippets'
-  - pymdownx.highlight:
-      anchor_linenums: true
-      use_pygments: true
-      pygments_lang_class: true
-      auto_title: true
-      linenums: true
-      linenums_style: pymdownx-inline
-      line_spans: __span
-  - pymdownx.smartsymbols:
-  - pymdownx.magiclink:
-  - pymdownx.superfences:
-      custom_fences:
-        - name: mermaid
-          class: mermaid
-          format: !!python/name:pymdownx.superfences.fence_code_format
-  - pymdownx.tabbed:
-      alternate_style: true
-      combine_header_slug: true
-      slugify: !!python/object/apply:pymdownx.slugs.slugify
-        kwds:
-          case: lower
-  - pymdownx.tasklist:
-      custom_checkbox: true
-      clickable_checkbox: true
-  - pymdownx.blocks.details:
-  - pymdownx.blocks.tab:
-      alternate_style: true
-  - pymdownx.blocks.admonition:
-      types:
-        - note
-        - abstract
-        - info
-        - tip
-        - success
-        - question
-        - warning
-        - failure
-        - danger
-        - bug
-        - example
-        - quote
-        - download
-  - abbr
-  - admonition
-  - attr_list
-  - def_list
-  - footnotes
-  - md_in_html
-  - tables
-  - toc:
-      permalink: "#"
+  - pymdownx.highlight: # 👈 got it 
+      anchor_linenums: true # 👈 got it 
+      use_pygments: true # 👈 got it 
+      pygments_lang_class: true # 👈 got it 
+      auto_title: true # 👈 got it 
+      linenums: true # 👈 got it 
+      linenums_style: pymdownx-inline # 👈 got it 
+      line_spans: __span # 👈 got it 
+  - pymdownx.smartsymbols # 👈 got it 
+  - pymdownx.magiclink: # 👈 got it 
+      normalize_issue_symbols: true # 👈 got it 
+      repo_url_shorthand: true # 👈 got it 
+      user: ndu69110 # 👈 got it 
+      repo: mkdocs-material # 👈 got it 
+  - pymdownx.superfences: # 👈 got it 
+      custom_fences: # 👈 got it 
+        - name: mermaid # 👈 got it 
+          class: mermaid # 👈 got it 
+          format: !!python/name:pymdownx.superfences.fence_code_format # 👈 got it 
+  - pymdownx.tabbed: # 👈 got it 
+      alternate_style: true # 👈 got it 
+      combine_header_slug: true # 👈 got it 
+      slugify: !!python/object/apply:pymdownx.slugs.slugify # 👈 got it 
+        kwds: # 👈 got it 
+          case: lower # 👈 got it 
+  - pymdownx.tasklist: # 👈 got it 
+      custom_checkbox: true # 👈 got it 
+      clickable_checkbox: true # 👈 got it 
+  - pymdownx.blocks.details: # 👈 got it 
+  - pymdownx.blocks.tab: # 👈 got it 
+      alternate_style: true # 👈 got it 
+  - pymdownx.blocks.admonition: # 👈 got it 
+      types: # 👈 got it 
+        - note # 👈 got it 
+        - abstract # 👈 got it 
+        - info # 👈 got it 
+        - tip # 👈 got it 
+        - success # 👈 got it 
+        - question # 👈 got it 
+        - warning # 👈 got it 
+        - failure # 👈 got it 
+        - danger # 👈 got it 
+        - bug # 👈 got it 
+        - example # 👈 got it 
+        - quote # 👈 got it 
+        - download # 👈 got it 
+  - abbr # 👈 got it 
+  - admonition # 👈 got it 
+  - attr_list # 👈 got it 
+  - def_list # 👈 got it 
+  - footnotes # 👈 got it 
+  - md_in_html # 👈 got it 
+  - tables # 👈 got it 
+  - toc: # 👈 got it 
+      permalink: "#" # 👈 got it but not same value
       baselevel: 2
       separator: "_"
       title: SOMMAIRE                         # 👈 TOC name
@@ -209,8 +214,8 @@ markdown_extensions:
         kwds:
           case: lower
       toc_depth: 3
-  - pymdownx.arithmatex:
-      generic: true
+  - pymdownx.arithmatex: # 👈 got it 
+      generic: true # 👈 got it 
   
 nav:
   - Accueil: index.md
