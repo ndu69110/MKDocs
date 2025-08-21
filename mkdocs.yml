@@ -25,38 +25,38 @@ theme:
     ##    icon: material/weather-night        # 👈 default: material/brightness-4
     ##    name: Switch to dark mode  
   features:
-    - header.hide_repo_revision               # 👈 empêche l’affichage du numéro ou texte sous le nom
-    #- header.autohide                        # 👈 if commented: the header remains visible 
-    - announce.dismiss
-    - navigation.instant
-    - navigation.instant.prefetch
-    - navigation.instant.progress
-    - navigation.instant.preview
-    - navigation.tracking
-    - navigation.tabs
+    - announce.dismiss # 👈 got it
+    - content.action.edit # 👈 got it 
+    - content.action.view # 👈 got it         # 👈 adds "View source of this page"
+    - content.code.annotate # 👈 got it    
+    - content.code.copy # 👈 got it
+    - content.code.select # 👈 got it
+    - content.footnote.tooltips 👈 got it
+    - content.tabs.link 👈 got it
+    - content.tooltips # 👈 got it
+    # - header.autohide # 👈 got it           # 👈 if commented: the header remains visible
+    - navigation.expand # 👈 got it
+    # - navigation.footer # 👈 got it
+    - navigation.indexes # 👈 got it
+    - navigation.instant # 👈 got it
+    - navigation.instant.prefetch # 👈 got it
+    - navigation.instant.progress # 👈 got it
+    - navigation.prune # 👈 got it
+    - navigation.sections # 👈 got it
+    - navigation.tabs # 👈 got it
     - navigation.tabs.sticky
-    - navigation.sections
-    - navigation.expand
-    - navigation.path
-    - navigation.prune
-    - navigation.indexes
-    - navigation.top
-    - toc.follow
+    - navigation.top # 👈 got it
+    - navigation.tracking # 👈 got it
+    - search.highlight # 👈 got it
+    - search.share # 👈 got it
+    - search.suggest # 👈 got it
+    - toc.follow # 👈 got it
     - toc.integrate                           # 👈 show to to the left instead to the right
-    - content.action.view                     # 👈 adds "View source of this page"
-    #- navigation.footer    
+    - header.hide_repo_revision               # 👈 empêche l’affichage du numéro ou texte sous le nom
+    - navigation.instant.preview
+    - navigation.path
     - toc.sections
-    - search.suggest
-    - search.highlight
-    - search.share
     - search.related
-    - content.code.copy
-    - content.code.select
-    - content.code.annotate
-    - content.tooltips
-    - content.footnote.tooltips
-    - content.tabs.link
-
 plugins:
   - open-in-new-tab
   - blog:
