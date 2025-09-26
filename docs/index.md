@@ -4,7 +4,7 @@
 
 ## Bonjour !
 
-Ce site a été créé pour regrouper quelques articles, quelques dfdfdfnotes en relation avec le domaine de l'IT. Y sont déposés dans la rubrique blog quelques sujets techniques, quelques travaux réalisés dans mon "homelab" et quelques sujets d'actualité.
+Ce site a été créé pour regrouper quelques articles, quelques notes en relation avec le domaine de l'IT. Y sont déposés dans la rubrique blog quelques sujets techniques, quelques travaux réalisés dans mon "homelab" et quelques sujets d'actualité.
 
 Bonne lecture, je lirai vos messages avec plaisir dans la rubrique adéquate !
 
